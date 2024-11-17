@@ -1,0 +1,353 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e2e2e2;
+}
+
+/* ქავერი */
+header.cover-image {
+  background-image: url('top-view-arrangement-with-food-wooden-background.jpg'); 
+  background-size: cover;  
+  background-position: center center;  
+  background-repeat: no-repeat; 
+  height: 100vh;  
+  color: white;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  
+header.cover-image h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+  
+header.cover-image p {
+  font-size: 1.5rem;
+}
+
+/* Search form styles */
+.search-form {
+  width: 55%;
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  height: 65px;
+  width: 100%;
+  padding: 8px;
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  height: 65px;
+  width: 125px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 2px solid #28a745;
+}
+
+.search-button:hover {
+  background-color: transparent;  
+  color: #28a745;
+  transition: 0.4s;
+}
+
+.shop-now {
+  text-decoration: none;
+  margin: 25px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px 12px;
+  height: 52px;
+  width: 165px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 2px solid #28a745;
+}
+
+.shop-now:hover {
+  background-color: transparent; 
+  transition: 0.4s;
+}
+
+h1 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+hr {
+  background-color: #28a745;
+  color: #28a745;
+  border: none;
+  height: 3px;
+  width: 850px;
+}
+
+section.card-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px; 
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  transition: all 0.3s ease;
+}
+
+/* Styling individual cards */
+article.card {
+  width: calc(33.333% - 24px);  
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+article.card:hover {
+  transform: translateY(-8px);  
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);  
+}
+
+.card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article.card img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+section.card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  gap: 16px; 
+}
+
+h5.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;  
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.3;
+  letter-spacing: 0.5px; 
+}
+
+p.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.card-footer {
+  padding: 12px 24px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+footer.card-footer small {
+  font-size: 0.875rem;
+  color: red;
+}
+
+/* Button Styling */
+.btn-primary {
+  height: 50px;
+  padding: 0 24px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  transform: translateY(-2px);  
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-primary:active {
+  transform: translateY(1px);  
+} 
+  
+footer.card-footer {
+  background-color: #f2f7fb;
+  padding: 8px 16px;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+}
+  
+footer.card-footer small {
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+}
+
+
+/* ესეც ქავერი */
+header.cover-image {
+  background-image: url('top-view-arrangement-with-food-wooden-background.jpg'); 
+  background-size: cover;  
+  background-position: center center;  
+  background-repeat: no-repeat; 
+  height: 100vh;  
+  color: white;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  
+header.cover-image h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+  
+header.cover-image p {
+  font-size: 1.5rem;
+}
+
+.favicon {
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
+}
+
+@media (max-width: 1199px) {
+  section.card-group {
+    gap: 16px;
+    padding: 20px 15px;
+  }
+  article.card {
+    width: calc(50% - 16px); 
+  }
+  header.cover-image h1 {
+    font-size: 2.5rem;
+  }
+  header.cover-image p {
+    font-size: 1.25rem;
+  }
+  .search-input {
+    font-size: 1.5rem;
+    height: 50px;
+  }
+  .search-button {
+    height: 50px;
+    font-size: 1rem;
+  }
+  .shop-now {
+    font-size: 1rem;
+    height: 45px;
+    width: 140px;
+  }
+  hr {
+    width: 768px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.card-group {
+    gap: 12px;
+    padding: 15px 10px;
+  }
+  article.card {
+    width: 100%; 
+  }
+  header.cover-image h1 {
+    font-size: 2rem;
+  }
+  header.cover-image p {
+    font-size: 1rem;
+  }
+  .search-form {
+    width: 90%;
+  }
+  .search-input {
+    font-size: 1.25rem;
+    height: 45px;
+  }
+  .search-button {
+    height: 45px;
+    font-size: 0.9rem;
+  }
+  .shop-now {
+    font-size: 0.9rem;
+    height: 40px;
+    width: 120px;
+  }
+  hr {
+    width: 480px; 
+  }
+}
+
+@media (max-width: 479px) {
+  header.cover-image h1 {
+    font-size: 1.5rem;
+  }
+  header.cover-image p {
+    font-size: 0.875rem;
+  }
+  .search-input {
+    font-size: 1rem;
+    height: 40px;
+  }
+  .search-button {
+    height: 40px;
+    font-size: 0.8rem;
+    width: 100px;
+  }
+  .shop-now {
+    font-size: 0.8rem;
+    height: 35px;
+    width: 100px;
+  }
+  p.card-text {
+    font-size: 0.875rem;
+  }
+  h5.card-title {
+    font-size: 1rem;
+  }
+  hr {
+    width: 320px;
+  }
+}
